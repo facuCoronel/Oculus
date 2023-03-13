@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Api.Cliente\\Api.Cliente.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\AccesoDatos\\AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\AccesoDatos\\AccesoDatos.csproj",
+        "projectName": "AccesoDatos",
+        "projectPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Api.Cliente\\Api.Cliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Api.Cliente\\Api.Cliente.csproj",
+        "projectName": "Api.Cliente",
+        "projectPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Api.Cliente\\Api.Cliente.csproj",
+        "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Api.Cliente\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\AccesoDatos\\AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\AccesoDatos\\AccesoDatos.csproj"
+              },
+              "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Provincia\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Provincia\\Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Provincia\\Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Provincia\\Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Provincia\\Modelo.csproj",
+        "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facun\\OneDrive\\Desktop\\Oculus\\Oculus\\Provincia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
